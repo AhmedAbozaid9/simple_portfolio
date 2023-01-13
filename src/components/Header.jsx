@@ -1,11 +1,10 @@
 import React from 'react';
-import styles from "../styles.js";
 import Title from "./Title.jsx";
 const Header = () => (
   <header className="flex items-center justify-center flex-col ">
-    <h1 className={`text-4xl sm:text-5xl font-bold ${styles.paddingY} tracking-wider  dark:text-white`}>Abozaid</h1>
+    <h1 className="text-4xl sm:text-5xl font-bold py-16 tracking-wider dark:text-white">Abozaid</h1>
     <Title />
-    <p className={`${styles.paddingY} text-dimBlack dark:text-dimWhite max-w-[480px] text-center`}>
+    <p className={`py-16 text-dimBlack dark:text-dimWhite max-w-[480px] text-center`}>
       I'm a computer science student, but I've been learning how to code since 2018. I've been passionate about web technologies enough to teach it to others by hosting web workshops for beginners. My ultimate goal is to make an impact in this domain, and I started doing so by teaching others, and improving my skills to make bigger and better projects from zero.
     </p>
     <div className="relative">

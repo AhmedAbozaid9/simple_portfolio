@@ -1,6 +1,7 @@
 import Header from "./components/Header.jsx";
 import {useEffect, useState} from "react";
 import ToggleTheme from "./components/ToggleTheme.jsx";
+import Projects from "./components/Projects.jsx";
 
 function App() {
   const [theme,setTheme] = useState(null)
@@ -22,8 +23,9 @@ function App() {
   return (
     <div className="flex flex-col justify-center items-center">
       <ToggleTheme theme={theme === "dark"} setTheme={setTheme}/>
-      <div className="max-w[1200px] mx-5">
-      <Header />
+      <div className="xl:max-w-[1200px] w-full px-4">
+        <Header />
+        <Projects />
       </div>
     </div>
   )
