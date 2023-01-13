@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="flex flex-col justify-center items-center">
       <ToggleTheme theme={theme === "dark"} setTheme={setTheme}/>
-      <div className="xl:max-w-[1200px] w-full px-4">
+      <div className="xl:max-w-[1400px] w-full px-4">
         <Header />
         <Projects />
       </div>
