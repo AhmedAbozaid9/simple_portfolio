@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+html.dark {
+  background-color: #0B0B0B;
+}
+
+* {
+  transition: background-color 0.3s ease-in-out;
+}
+
 .breathing {
   animation: breathing 2.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite alternate;
 }
@@ -17,3 +25,4 @@
   }
   to {transform: scale(1.07)}
 }
+
