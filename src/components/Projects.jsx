@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {motion} from "framer-motion";
 
 import projects from "../data/index.js";
 
@@ -18,9 +19,11 @@ const Projects = () => {
     <section className="flex flex-col items-start justify-center py-16">
       <Heading2 text="Projects"/>
       <SelectType type={type} setType={setType} types={["All","Websites","Small apps"]}/>
-      <div className="flex items-center sm:justify-start justify-center gap-8 flex-wrap mt-5">
-        {projectsCopy.map(project => <ProjectCard key={project.id} {...project} />)}
-      </div>
+     <motion.div key={type} initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} >
+       <div className="flex items-center sm:justify-start justify-center gap-8 flex-wrap mt-5">
+         {projectsCopy.map(project => <ProjectCard key={project.id} {...project} />)}
+       </div>
+     </motion.div>
     </section>
   )
 }

@@ -10,7 +10,7 @@ const ProjectCard = ({id,name, props, img, link}) => {
       <div className="mx-2 flex flex-col justify-center sm:h-[100px]">
         <h3 className="text-[18px] font-medium my-2">{name}</h3>
         <div>
-          {props.map(prop => <Prop key={prop+id} text={prop}/>)}
+          {props.map((prop,idx) => <Prop key={prop+id} text={prop} style={idx === props.length - 1 ? "mr-0":"mr-2"}/>)}
         </div>
       </div>
     </div>
