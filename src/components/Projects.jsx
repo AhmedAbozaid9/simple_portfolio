@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {motion} from "framer-motion";
 
-import projects from "../data/index.js";
+import projects from "../constants/projects.js";
 
 import Heading2 from "./Heading2.jsx";
 import SelectType from "./SelectType.jsx";

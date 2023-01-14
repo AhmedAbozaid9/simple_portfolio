@@ -2,6 +2,7 @@ import Header from "./components/Header.jsx";
 import {useEffect, useState} from "react";
 import ToggleTheme from "./components/ToggleTheme.jsx";
 import Projects from "./components/Projects.jsx";
+import Services from "./components/Services.jsx";
 
 function App() {
   const [theme,setTheme] = useState(null)
@@ -26,6 +27,7 @@ function App() {
       <div className="xl:max-w-[1400px] w-full px-4">
         <Header />
         <Projects />
+        <Services />
       </div>
     </div>
   )
