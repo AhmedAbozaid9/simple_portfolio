@@ -3,6 +3,7 @@ import {useEffect, useState} from "react";
 import ToggleTheme from "./components/ToggleTheme.jsx";
 import Projects from "./components/Projects.jsx";
 import Services from "./components/Services.jsx";
+import Contact from "./components/Contact.jsx";
 
 function App() {
   const [theme,setTheme] = useState(null)
@@ -28,6 +29,7 @@ function App() {
         <Header />
         <Projects />
         <Services />
+        <Contact />
       </div>
     </div>
   )

@@ -5,7 +5,7 @@
 .root,
 #root,
 #docs-root  {
-  --gradient-pink: linear-gradient(90deg, rgba(234,22,142,1) 0%, rgba(255,160,240,1) 25%, rgba(198,172,232,1) 51%, rgba(119,167,231,1) 75%, rgba(30,175,237,1) 100%);
+  --gradient-pink: linear-gradient(135deg, rgba(234,22,142,1) 0%, rgba(255,160,240,1) 25%, rgba(198,172,232,1) 51%, rgba(119,167,231,1) 75%, rgba(30,175,237,1) 100%);
 }
 
 html.dark {
@@ -26,6 +26,11 @@ html {
 .blue-pink-gradient {
   background: rgb(234,22,142);
   background: var(--gradient-pink);
+}
+
+.send-gradient {
+  background: rgb(234,22,142);
+  background: linear-gradient(131deg, rgba(234,22,142,1) 0%, rgba(30,175,237,1) 100%);
 }
 
 @keyframes breathing {
