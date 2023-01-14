@@ -16,7 +16,7 @@ const Projects = () => {
     projectsCopy = projects.filter(project => project.type !== "website")
   }
   return (
-    <section className="flex flex-col items-start justify-center py-16">
+    <section className="flex flex-col items-start justify-center py-8 sm:py-16">
       <Heading2 text="Projects"/>
       <SelectType type={type} setType={setType} types={["All","Websites","Small apps"]}/>
      <motion.div key={type} initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} >

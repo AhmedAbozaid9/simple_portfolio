@@ -11,7 +11,7 @@ const Header = () => (
       <a href="https://docs.google.com/document/d/1Yd8hDpZ_lxWr0cFKhBdCqIMOORh3FEKgoJzdE1n9_70/edit?usp=sharing" target="_blank">
         <button className="bg-white text-dimBlack font-medium px-8 rounded-[10px] py-3 text-lg">Resume</button>
       </a>
-      <div className="absolute -z-10 inset-0 rounded-[10px] w-full h-full blue-pink-gradient blur-[7px] dark:blur-lg"></div>
+      <div className="absolute -z-10 inset-0 rounded-[10px] w-full h-full button-gradient blur-[7px] dark:blur-lg"></div>
     </div>
   </header>
 );
