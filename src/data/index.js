@@ -43,7 +43,7 @@ const projects = [
   {
     id:4,
     name:"Todo App",
-    props:["React Native","2023"],
+    props:["ReactNative","2023"],
     img:todoApp,
     type:"app",
     link:"https://github.com/AhmedAbozaid9/Todo_App",

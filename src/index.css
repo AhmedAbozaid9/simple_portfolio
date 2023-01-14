@@ -12,7 +12,9 @@ html.dark {
   background-color: #0B0B0B;
   color-scheme: dark;
 }
-
+html {
+  background-color: white;
+}
 * {
   transition: background-color 0.3s ease-in-out;
 }
