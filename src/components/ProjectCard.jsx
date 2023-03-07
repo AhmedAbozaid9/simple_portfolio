@@ -5,7 +5,7 @@ import Prop from "./Prop.jsx";
 
 const ProjectCard = ({ id, name, props, img, code, link }) => {
   return (
-    <div className="w-[250px] h-[215px] sm:w-[300px] sm:h-[255px] border-2 border-neutral-400 dark:border-dimWhite overflow-hidden rounded-[10px] flex flex-col">
+    <div className="w-[250px] h-[225px] sm:w-[300px] sm:h-[265px] border-2 border-neutral-400 dark:border-dimWhite overflow-hidden rounded-[10px] flex flex-col justify-between">
       <a href={link} target="_blank">
         <div>
           <img
@@ -32,7 +32,7 @@ const ProjectCard = ({ id, name, props, img, code, link }) => {
       <a
         href={code}
         target="_blank"
-        className="h-full flex items-center justify-center text-black dark:text-white block border-t-[1px] border-dimBlack bg-neutral-50 dark:border-dimWhite dark:bg-neutral-900"
+        className="flex items-center justify-center text-black dark:text-white block border-t-[1px] border-dimBlack bg-neutral-50 dark:border-dimWhite dark:bg-neutral-900"
       >
         <HiCodeBracket size={23} />
       </a>
