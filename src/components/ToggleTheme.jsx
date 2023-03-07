@@ -16,7 +16,7 @@ const ToggleTheme = ({ theme, setTheme }) => {
     <div
       className={`${
         toggle ? "bg-neonBlue" : "bg-neonPink"
-      } sm:w-14 sm:h-7 w-12 h-6 flex items-center rounded-full p-1 cursor-pointer fixed top-5 right-5`}
+      } sm:w-14 sm:h-7 w-12 h-6 flex items-center rounded-full p-1 cursor-pointer fixed top-5 right-5 z-1000`}
       onClick={() => {
         setToggle(!toggle);
         setTheme(toggle ? "dark" : "light");

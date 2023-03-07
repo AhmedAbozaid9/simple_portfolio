@@ -5,7 +5,7 @@ import Prop from "./Prop.jsx";
 
 const ProjectCard = ({ id, name, props, img, code, link }) => {
   return (
-    <div className="w-[250px] h-[215px] sm:w-[300px] sm:h-[255px] border-2 border-neutral-400 dark:border-dimWhite overflow-hidden rounded-[10px] flex flex-col">
+    <div className="w-[250px] h-[225px] sm:w-[300px] sm:h-[265px] border-2 border-neutral-400 dark:border-dimWhite overflow-hidden rounded-[10px] flex flex-col">
       <a href={link} target="_blank">
         <div>
           <img
