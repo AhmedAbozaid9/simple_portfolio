@@ -14,8 +14,18 @@ import pomodoroApp from "../assets/pomodoroApp.png";
 import oldPortfolio from "../assets/oldPortfolio.png";
 import AiTicTacToe from "../assets/AiTicTacToe.png";
 import simonGame from "../assets/simonGame.png";
+import promptopia from "../assets/promptopia.png";
 
 const projects = [
+  {
+    id: 124,
+    name: "Promptipia",
+    props: ["Next", "Tailwind", "2023"],
+    img: promptopia,
+    type: "website",
+    code: "https://github.com/AhmedAbozaid9/share_prompts",
+    link: "https://share-prompts-ruddy.vercel.app/",
+  },
   {
     id: 1,
     name: "Devvio",
