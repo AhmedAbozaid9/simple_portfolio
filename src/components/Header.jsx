@@ -19,7 +19,7 @@ const Header = () => (
     </p>
     <div className="relative">
       <a
-        href="https://docs.google.com/document/d/1umPKNLRVEk0Ar_viTRFBK72Jhcg5SUV4MTx8y88elBQ/edit?usp=sharing"
+        href="https://docs.google.com/document/d/1oocoKZhMlnFYEu9XsonOByzPAajaC1odQv7eAsfaAvQ/edit?usp=sharing"
         target="_blank"
       >
         <button className="bg-white text-dimBlack font-medium px-8 rounded-[10px] py-3 text-lg">
