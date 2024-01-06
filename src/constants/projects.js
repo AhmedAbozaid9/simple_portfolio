@@ -15,11 +15,20 @@ import oldPortfolio from "../assets/oldPortfolio.png";
 import AiTicTacToe from "../assets/AiTicTacToe.png";
 import simonGame from "../assets/simonGame.png";
 import promptopia from "../assets/promptopia.png";
-
+import flairfusion from "../assets/flairfusion.png";
 const projects = [
   {
+    id: 5234,
+    name: "Flair fusion",
+    props: ["Next", "Tailwind", "2024"],
+    img: flairfusion,
+    type: "website",
+    code: "https://github.com/AhmedAbozaid9/flair_fusion.git",
+    link: "https://flair-fusion.vercel.app/",
+  },
+  {
     id: 124,
-    name: "Promptipia",
+    name: "Promptopia",
     props: ["Next", "Tailwind", "2023"],
     img: promptopia,
     type: "website",
