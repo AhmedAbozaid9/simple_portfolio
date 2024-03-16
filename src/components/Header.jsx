@@ -11,10 +11,10 @@ const Header = () => (
         "py-16 text-dimBlack dark:text-dimWhite max-w-[500px] text-center tracking-wide"
       }
     >
-      I'm a computer science student, but I've been learning how to code since
-      2018. I've been passionate about web technologies enough to teach it to
-      others by hosting web workshops for beginners. My ultimate goal is to make
-      an impact in this domain, and I started doing so by teaching others, and
+      Hello there, I'm a computer science student, and I've been learning how to
+      code since 2018. I've been passionate about web technologies enough to
+      teach it to others by hosting web workshops for beginners. My ultimate
+      goal is to make an impact in this domain, and I started doing so by
       improving my skills to make bigger and better projects from zero.
     </p>
     <div className="relative">
